@@ -1,4 +1,6 @@
-abstract class Employee {
+package Employee;
+
+public abstract class Employee {
     String name; 
     double basicSalary; 
 
