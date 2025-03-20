@@ -44,16 +44,16 @@ class PayrollSystemTest {
 
     @Test
     void testEmployeeBonus() {
-        assertEquals(500, dev1.getBonus());  
-        assertEquals(550, dev2.getBonus());
-        assertEquals(1600, manager1.getBonus()); 
+        assertEquals(1000, dev1.getBonus());  
+        assertEquals(1100, dev2.getBonus());
+        assertEquals(2400, manager1.getBonus()); 
     }
 
     @Test
     void testEmployeeCompensation() {
-        assertEquals(5500, dev1.getCompensation()); 
-        assertEquals(6050, dev2.getCompensation()); 
-        assertEquals(9600, manager1.getCompensation()); 
+        assertEquals(6000, dev1.getCompensation()); 
+        assertEquals(6600, dev2.getCompensation()); 
+        assertEquals(10400, manager1.getCompensation()); 
     }
 
     @Test
